@@ -1,12 +1,12 @@
 public class Sorting {
-    SortingBehavior sortingBehavior;
+    SortingStrategy sortingStrategy;
 
     public Sorting(){
     }
-    public void setSortingBehavior(SortingBehavior type){
-        sortingBehavior = type;
+    public void setSortingStrategy(SortingStrategy type){
+        sortingStrategy = type;
     }
     public void preformSort(int[] values){
-        sortingBehavior.sort(values);
+        sortingStrategy.sort(values);
     }
 }
