@@ -3,8 +3,8 @@ public class Sorting {
 
     public Sorting(){
     }
-    public void setSortingBehavior(SortingBehavior sort){
-        sortingBehavior = sort;
+    public void setSortingBehavior(SortingBehavior type){
+        sortingBehavior = type;
     }
     public void preformSort(int[] values){
         sortingBehavior.sort(values);
