@@ -1,20 +1,12 @@
-import java.util.*;
-public abstract class Sorting {
+public class Sorting {
     SortingBehavior sortingBehavior;
 
     public Sorting(){
     }
-    public void setSortingBehavoir(){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Choose a sorting algorithm: ");
-        System.out.println("1. Bubble Sort");
-        System.out.println("2. Merge Sort");
-        System.out.println("3. Quick Sort");
-        String sort = sc.nextLine().toLowerCase();
-        if
+    public void setSortingBehavior(SortingBehavior sort){
         sortingBehavior = sort;
     }
-    public void performSort(){
-        sortingBehavior.sort();
+    public void preformSort(int[] values){
+        sortingBehavior.sort(values);
     }
 }
