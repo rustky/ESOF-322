@@ -1,4 +1,4 @@
-public class Sorting {
+public abstract class Sorting {
     SortingStrategy sortingStrategy;
 
     public Sorting(){
