@@ -5,12 +5,12 @@ public class Driver {
         Inventory2 inventory2 = new Inventory2();
 
         inventory1.preformSort(intArray);
-        inventory1.setSortingStrategy(new mergeSort());
+        inventory1.setSortingStrategy(new insertionSort());
         inventory1.preformSort(intArray);
 
-        inventory2.preformSort(intArray);
-        inventory2.setSortingStrategy(new quickSort());
-        inventory2.preformSort(intArray);
+//        inventory2.preformSort(intArray);
+//        inventory2.setSortingStrategy(new quickSort());
+//        inventory2.preformSort(intArray);
 
     }
 }
