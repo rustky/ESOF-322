@@ -8,9 +8,9 @@ public class Driver {
         inventory1.setSortingStrategy(new insertionSort());
         inventory1.preformSort(intArray);
 
-//        inventory2.preformSort(intArray);
-//        inventory2.setSortingStrategy(new quickSort());
-//        inventory2.preformSort(intArray);
+        inventory2.preformSort(intArray);
+        inventory2.setSortingStrategy(new heapSort());
+        inventory2.preformSort(intArray);
 
     }
 }
