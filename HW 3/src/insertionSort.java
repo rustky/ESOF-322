@@ -1,3 +1,7 @@
+/**
+ * Implementation of Insertion Sort from the internet
+ * See Works Cited for source
+ */
 public class insertionSort implements SortingStrategy {
     @Override
     public void sort(int[] values) {

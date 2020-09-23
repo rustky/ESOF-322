@@ -1,3 +1,7 @@
+/**
+ * Implementation of Heap Sort from the internet
+ * See Works Cited for source
+ */
 public class heapSort implements SortingStrategy {
     @Override
     public void sort(int[] values) {

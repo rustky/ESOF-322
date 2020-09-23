@@ -1,3 +1,6 @@
+/**
+ * This is the class for running the program. Simply run this class to see the output of this project
+ */
 public class Driver {
     public static void main(String args[]){
         int[] intArray = new int[]{ 1,6,3,4 };
